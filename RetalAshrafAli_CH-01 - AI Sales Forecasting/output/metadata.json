@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-02-07T15:06:36.471318",
+  "total_combinations": 50,
+  "forecast_months": [
+    13,
+    14,
+    15
+  ],
+  "total_forecasts": 150,
+  "validation_mae_sales": 34.33699417114258,
+  "validation_rmse_sales": 315.3063862142662,
+  "validation_mae_qty": 1.4833087208274371,
+  "validation_rmse_qty": 19.69044751757991,
+  "model_type": "XGBoost",
+  "features_used": [
+    "month_id",
+    "brand_encoded",
+    "location_encoded",
+    "sales_lag1",
+    "sales_lag2",
+    "sales_lag3",
+    "qty_lag1",
+    "qty_lag2",
+    "qty_lag3",
+    "sales_rolling_mean_3",
+    "sales_rolling_std_3",
+    "qty_rolling_mean_3",
+    "sales_cumsum",
+    "qty_cumsum",
+    "month_since_start"
+  ]
+}
