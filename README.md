@@ -1,4 +1,4 @@
-# **AI SALES FORECASTING SYSTEM — CH-01**  
+# **CH-01AI SALES FORECASTING SYSTEM **  
 
 ## **RUN STEPS**  
 1. **Environment Setup**  
